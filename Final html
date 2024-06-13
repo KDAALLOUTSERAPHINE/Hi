@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="wordle.css">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: rgb(255, 255, 255); 
+        }
+        .banner {
+            text-align: center;
+        }
+        .center {
+            text-align: center;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+        }
+        button a {
+            text-decoration: none;
+            color: inherit;
+        }
+    </style>
+</head>
+<body>
+    <div class="banner">
+        <img src="pictures/59d2ff8a-ab69-4f74-b9f3-2906b73bf251.jpg" alt="STEM Image">
+        <div class="center">
+            <h1 style="color: rgb(114, 114, 114);">WORD CODE</h1>
+            <h3 style="color: rgb(44, 128, 55);">Group ASCII</h3>
+            <button><a href="wordle.html">START</a></button>
+        </div>
+    </div>
+
+</body>
+</html>
+
